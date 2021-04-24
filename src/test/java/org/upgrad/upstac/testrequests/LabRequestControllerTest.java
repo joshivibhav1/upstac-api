@@ -37,13 +37,13 @@ class LabRequestControllerTest {
 
         //Create another object of the TestRequest method and explicitly assign this object for Lab Test using assignForLabTest() method
         // from labRequestController class. Pass the request id of testRequest object.
-        TestRequest newTR = labRequestController.assignForLabTest(testRequest.getRequestId());
+
         //Use assertThat() methods to perform the following two comparisons
         //  1. the request ids of both the objects created should be same
         //  2. the status of the second object should be equal to 'INITIATED'
+
         // make use of assertNotNull() method to make sure that the lab result of second object is not null
         // use getLabResult() method to get the lab result
-
 
     }
 
@@ -137,15 +137,8 @@ class LabRequestControllerTest {
 
         //Create an object of CreateLabResult and set all the values
         // Return the object
-//        CreateLabResult createLabResult = new CreateLabResult();
-//        createLabResult.setBloodPressure(testRequest.get);
-//        createLabResult.heartBeat;
-//        createLabResult.temperature;
-//        createLabResult.oxygenLevel;
-//        createLabResult.oxygenLevel;
-//        createLabResult.comments;
 
-        return null;
+        return null; // Replace this line with your code
     }
 
 }
